@@ -1,0 +1,24 @@
+{
+  "name": "boilerplate-testing-es6-mocha",
+  "version": "1.0.0",
+  "description": "A boilerplate for testing JavaScript code using ES6 and Mocha",
+  "scripts": {
+    "test": "mocha --require babel-register",
+    "test:watch": "mocha --require babel-register --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adalab/boilerplate-testing-es6-mocha.git"
+  },
+  "author": "Asociación Adalab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adalab/boilerplate-testing-es6-mocha/issues"
+  },
+  "homepage": "https://github.com/adalab/boilerplate-testing-es6-mocha#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "mocha": "^5.2.0"
+  }
+}
